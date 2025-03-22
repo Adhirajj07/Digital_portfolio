@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adhiraj J - Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Raleway:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="nav">
+    <h1 class="fh1">Welcome To My Portfolio !</h1>
+    <div class="navabar-links">
+        <a class="navabar-link" href="#about-container">About</a>
+        <a class="navabar-link" href="#Education">Education</a>
+        <a class="navabar-link" href="#Skills">Skills</a>
+        <a class="navabar-link" href="#Certifications">Certifications</a>
+        <a class="navabar-link" href="#Contact">Contact</a>
+    </div>
+    </nav>
+    
+    <h1 class="sh1">
+        ADHIRAJ J
+    </h1>
+    <h2 class="role">WEB DEVELOPER</h2>
+    <section id="about-container">
+    <div class="about-container">
+        <div class="about-text">
+            <h4 class="fh4">ABOUT</h4>
+            <p class="p1">Enthusiastic computer science student with proficiency in Python, Java, C++, data structures using C++, HTML, and CSS. Passionate about learning and applying programming concepts to build practical applications. Actively seeking internship opportunities to enhance technical skills and gain hands-on experience in software development and web technologies. Committed to continuous learning and growth in the tech industry.</p>
+        </div>
+        <div class="about-image">
+            <img src="profile.jpg" alt="Profile Picture">
+        </div>
+    </div>
+</section>
+<section id="Education">
+    <div class="Education">
+        <div class="edu-container">
+        <H4 class="sh4">EDUCATION</H4>
+        <DIV class="edu-text">
+            <p class="p2">
+                BCA-Bachelor Of Computer Application
+            </p>
+        </div>
+        </DIV>
+    </div>
+</section>
+    <br>
+<section id="Skills">
+    <div name="skill-sec">
+        <div class="skills">
+        <h4 class="th4">SKILLS</h4>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Basics Of C++</li>
+                <li>Basics Of Data Structures</li>
+                <li>Html</li>
+                <li>Css</li>
+            <li>Ms Office</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section id="Certifications">
+    <div class="Certifications">
+        <div class="certi-sec">
+        <h4 class="certi-text">
+            CERTIFICATIONS
+        </h4>
+        <ul>
+            <li>Web Development</li>
+            <li>Python For Data Science</li>
+            <li>Programming In Java</li>
+            <li>Introduction To MongoDB </li>
+            <li>OOPS Using Python</li>
+        </ul>
+    </div>
+    </div>
+</section>
+<section id="Contact">
+    <div class="Contact">
+        <div class="cont-sec">
+            <h4 class="cont-h4">
+                CONTACT
+            </h4>
+            <dl>
+                <dt>Email</dt>
+                <dd>aadhi2555@gmail.com</dd>
+                <dt>Linkedin</dt>
+                <dd><a href="https://www.linkedin.com/in/HireAdhirajj" target="_blank" class="contact-linkedin">LinkedIn Profile Link</a>
+                </dd>
+                <dt>Phone Number</dt>
+                <dd>9047665907</dd>
+              </dl>
+        </div>
+    </div>
+</section>
+
+
+    <footer>
+        <p class="footer-sec">
+            &copy; 2025 ADHIRAJ J
+        </p>
+    </footer>
+    
+
+
+
+
+
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
